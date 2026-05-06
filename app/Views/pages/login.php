@@ -37,7 +37,7 @@ helper('form');
 
 		<div>
 			<label for="login_password">Mot de passe</label><br>
-			<input id="login_password" type="password" name="MotDePasse" value="<?= esc($old['MotDePasse'] ?? '') ?>" required>
+			<input id="login_password" type="password" name="MotDePasse" required autocomplete="off">
 		</div>
 
 		<button type="submit">Se connecter</button>
@@ -67,7 +67,7 @@ helper('form');
 
 		<div>
 			<label for="register_password">MotDePasse</label><br>
-			<input id="register_password" type="password" name="MotDePasse" value="<?= esc($old['MotDePasse'] ?? '') ?>" required>
+			<input id="register_password" type="password" name="MotDePasse" required autocomplete="off">
 		</div>
 
 		<div>

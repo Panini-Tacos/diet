@@ -51,7 +51,6 @@ if (!empty($errors)) {
 	$session->setFlashdata('old_input', [
 		'Nom' => $nom,
 		'Prenom' => $prenom,
-		'MotDePasse' => $motDePasse,
 		'Email' => $email,
 		'idGenre' => $idGenre,
 		'form_type' => $formType,
