@@ -1,7 +1,7 @@
 ## TABLES
 - Usertype : id, type
 - Genre : id, type
-- User : id, nom, prenom, email, idGenre
+- User : id, nom, prenom, password, email, idGenre
 - User-info : idUser, poids, taille, insertedAt
 - TypeRegime : id, action
 - Regime : id, nom,  idType, prix, efficacite
