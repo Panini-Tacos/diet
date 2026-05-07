@@ -67,6 +67,18 @@ CREATE TABLE RegimeComponente(
     Volaille DECIMAL(4,1)
 );
 
+DELETE FROM RegimeComponente;
+DELETE FROM UserRegime;
+DELETE FROM UserInfo;
+DELETE FROM Sport;
+DELETE FROM Regime;
+DELETE FROM User;
+
+DELETE FROM TypeSport;
+DELETE FROM TypeRegime;
+DELETE FROM UserType;
+DELETE FROM Genre;
+DELETE FROM Code;
 
 
 
