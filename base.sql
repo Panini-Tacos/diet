@@ -66,7 +66,7 @@ CREATE TABLE RegimeComponente(
     Poisson DECIMAL(4,1),
     Volaille DECIMAL(4,1)
 );
-
+/*supression*/
 DELETE FROM RegimeComponente;
 DELETE FROM UserRegime;
 DELETE FROM UserInfo;
@@ -79,6 +79,21 @@ DELETE FROM TypeRegime;
 DELETE FROM UserType;
 DELETE FROM Genre;
 DELETE FROM Code;
+/**/
+/*Selection*/
+SELECT * FROM RegimeComponente;
+SELECT * FROM UserRegime;
+SELECT * FROM UserInfo;
+SELECT * FROM Sport;
+SELECT * FROM Regime;
+SELECT * FROM User;
+
+SELECT * FROM TypeSport;
+SELECT * FROM TypeRegime;
+SELECT * FROM UserType;
+SELECT * FROM Genre;
+SELECT * FROM Code;
+/**/
 
 
 
